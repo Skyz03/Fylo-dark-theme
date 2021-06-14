@@ -69,6 +69,39 @@ nav {
   border-radius: 50px;
 }
 
+/* Feature Section */
+
+.features-section {
+  display: grid;
+  grid-template-areas:
+    "one two"
+    "three four";
+  text-align: center;
+  margin: 10%;
+  grid-gap: 15%;
+}
+
+.feature-one {
+  grid-area: one;
+}
+
+.feature-two {
+  grid-area: two;
+}
+
+.feature-three {
+  grid-area: three;
+}
+
+.feature-four {
+  grid-area: four;
+}
+
+.feature-description {
+  line-height: 1.5;
+  margin-top: 3%;
+  opacity: 70%;
+}
 /* ATTRIBUTION SECTION  */
 .attribution {
   font-size: 11px;
