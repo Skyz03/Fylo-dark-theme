@@ -1,0 +1,59 @@
+:root {
+  --color-dark-Blue: hsl(217, 28%, 15%);
+  --color-dark-Blue2: hsl(218, 28%, 13%);
+  --color-dark-Blue3: hsl(216, 53%, 9%);
+  --color-dark-Blue4: hsl(219, 30%, 18%);
+  --color-Cyan: hsl(176, 68%, 64%);
+  --color-Blue: hsl(198, 60%, 50%);
+  --color-Light-Red: hsl(0, 100%, 63%);
+  --color-White: hsl(0, 0%, 100%);
+}
+
+* {
+  background-color: var(--color-dark-Blue2);
+  color: var(--color-White);
+  font-size: 14px;
+  margin: 1%;
+}
+
+body {
+  background: url(images/bg-curvy-desktop.svg) no-repeat;
+}
+
+/* TOP NAVIGATION  */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  width: 20%;
+}
+
+.nav-item {
+  text-decoration: none;
+  margin: 5%;
+}
+
+/* HERO SECTION */
+.hero-section {
+  text-align: center;
+  margin: 0 20%;
+}
+
+.hero-title {
+  font-size: 2rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
