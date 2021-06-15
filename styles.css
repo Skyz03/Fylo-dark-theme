@@ -102,6 +102,26 @@ nav {
   margin-top: 3%;
   opacity: 70%;
 }
+
+/* Productive Section  */
+.productive-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Content Section  */
+.productive-heading {
+  font-size: 2.5rem;
+  width: 70%;
+  margin-bottom: 3.5%;
+}
+
+.productive-description {
+  margin: 2% 1%;
+  line-height: 1.5;
+}
+
 /* ATTRIBUTION SECTION  */
 .attribution {
   font-size: 11px;
