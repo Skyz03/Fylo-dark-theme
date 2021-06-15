@@ -10,7 +10,6 @@
 }
 
 * {
-  background-color: var(--color-dark-Blue2);
   color: var(--color-White);
   font-size: 14px;
   margin: 1%;
@@ -20,6 +19,7 @@
 
 body {
   background: url(images/bg-curvy-desktop.svg) no-repeat;
+  background-color: var(--color-dark-Blue2);
 }
 
 /* TOP NAVIGATION  */
@@ -120,6 +120,38 @@ nav {
 .productive-description {
   margin: 2% 1%;
   line-height: 1.5;
+}
+
+/* Testimonial Section  */
+.testimonial-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2%;
+  margin: 5%;
+}
+
+/* Card */
+.card {
+  padding: 10% 5% 5% 5%;
+  background-color: var(--color-dark-Blue4);
+}
+
+.card-description {
+  line-height: 1.5;
+  opacity: 80%;
+}
+
+/* Profile-Section */
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  /* width: 100%; */
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 10%;
 }
 
 /* ATTRIBUTION SECTION  */
