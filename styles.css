@@ -154,6 +154,17 @@ nav {
   width: 10%;
 }
 
+/* Profile Name  */
+.profile-first-name {
+}
+
+.profile-position {
+  width: 100%;
+  font-size: 0.8rem;
+  opacity: 70%;
+  margin-top: 5%;
+}
+
 /* ATTRIBUTION SECTION  */
 .attribution {
   font-size: 11px;
