@@ -202,6 +202,12 @@ nav {
   border-radius: 50px;
 }
 
+/* Footer Section */
+footer {
+  background-color: var(--color-dark-Blue3);
+  margin: 0;
+}
+
 /* ATTRIBUTION SECTION  */
 .attribution {
   font-size: 11px;
@@ -209,9 +215,4 @@ nav {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-* {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Raleway", sans-serif;
 }
