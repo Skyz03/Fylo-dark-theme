@@ -19,6 +19,7 @@
 body {
   background: url(images/bg-curvy-desktop.svg) no-repeat;
   background-color: var(--color-dark-Blue2);
+  margin: 0;
 }
 
 /* TOP NAVIGATION  */
@@ -205,6 +206,9 @@ nav {
   padding: 2% 0;
 }
 
+input[type="email"] {
+  text-align: center;
+}
 .email-field {
   flex-grow: 3;
   color: gray;
@@ -226,7 +230,15 @@ nav {
 /* Footer Section */
 footer {
   background-color: var(--color-dark-Blue3);
-  margin: 0;
+  padding: 10% 5% 5% 5%;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
 }
 
 /* ATTRIBUTION SECTION  */
