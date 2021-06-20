@@ -198,22 +198,29 @@ nav {
   opacity: 70%;
 }
 
+.cta-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  padding: 2% 0;
+}
+
 .email-field {
+  flex-grow: 3;
   color: gray;
-  width: 60%;
   border-radius: 15px;
-  text-align: center;
+  padding: 1% 0;
 }
 
 .get-started2 {
-  font-family: "Raleway", sans-serif;
-  width: 40%;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 1px;
+  flex-grow: 1;
+  font-family: "Raleway", sans-serif;
   background-color: var(--color-Blue);
   border: 0;
-  padding: 2% 10%;
-  border-radius: 50px;
+  padding: 1% 0;
+  border-radius: 15px;
 }
 
 /* Footer Section */
