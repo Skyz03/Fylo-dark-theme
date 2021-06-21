@@ -236,9 +236,36 @@ footer {
 .container-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  justify-content: center;
-  /* align-items: center; */
+  justify-items: center;
   margin: 5% 0;
+}
+
+.intro-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-part img {
+  margin-right: 15%;
+  width: 25%;
+  max-height: 18%;
+}
+
+.phone {
+  display: flex;
+}
+
+.phone img {
+  margin-right: 10%;
+}
+
+.email {
+  display: flex;
+  margin-top: 15%;
+}
+
+.email img {
+  margin-right: 10%;
 }
 
 /* ATTRIBUTION SECTION  */
