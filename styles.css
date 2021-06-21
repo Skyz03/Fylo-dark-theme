@@ -137,7 +137,12 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2%;
   margin: 10%;
-  /* position: relative; */
+}
+
+.testimonial-section::before {
+  background: url(images/bg-quotes.png);
+  height: 100%;
+  width: 100%;
 }
 
 /* Card */
