@@ -473,3 +473,36 @@ footer {
     width: 33vw;
   }
 }
+
+/* HOVER EFFECTS */
+
+.nav-item:hover {
+  opacity: 100%;
+  text-decoration: underline;
+}
+
+.get-started:hover {
+  background-color: var(--color-Cyan);
+  cursor: pointer;
+}
+
+.fylo-blue:hover {
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+
+.get-started2:hover {
+  background-color: var(--color-Cyan);
+  cursor: pointer;
+}
+
+.container-grid p:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: var(--color-Cyan);
+  cursor: pointer;
+}

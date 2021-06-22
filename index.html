@@ -178,12 +178,15 @@
         you have any
         questions, our support team would be happy to help you.</p>
 
+      <form action="#">
+        <div class="cta-inputs">
+          <input class="email-field" type="email" placeholder="email@example.com">
 
-      <div class="cta-inputs">
-        <input class="email-field" type="email" placeholder="email@example.com">
+          <button onclick="submitForm()" type="button" value="Submit" class="get-started2"> Get Started For
+            Free</button>
+        </div>
+      </form>
 
-        <button class="get-started2"> Get Started For Free</button>
-      </div>
     </section>
     <img src="images/logo.svg" alt="">
 
@@ -232,6 +235,16 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Skyz03</a>.
   </p> -->
+
+  <script>
+
+    function submitForm() {
+      var from = document.getElementsByClassName("email-field");
+      // from.submit();
+      from.val(' ');
+      return false;
+    }
+  </script>
 
 </body>
 
